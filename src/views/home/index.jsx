@@ -3,6 +3,7 @@ import Collaboration from "./Collaboration";
 import Header from "./Header";
 import Hero from "./Hero";
 import Pricing from "./Pricing";
+import Roadmap from "./Roadmap";
 import Services from "./Services";
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <Collaboration />
       <Services />
       <Pricing />
+      <Roadmap />
     </div>
   );
 };
