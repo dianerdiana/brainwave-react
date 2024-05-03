@@ -2,6 +2,7 @@ import Benefits from "./Benefits";
 import Collaboration from "./Collaboration";
 import Header from "./Header";
 import Hero from "./Hero";
+import Services from "./Services";
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <Hero />
       <Benefits />
       <Collaboration />
+      <Services />
     </div>
   );
 };
